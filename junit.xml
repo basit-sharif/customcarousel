@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="8" errors="0" time="2.236">
+  <testsuite name="Catalog Viewer" errors="0" failures="8" skipped="0" timestamp="2023-10-06T14:08:37" time="1.536" tests="8">
+    <testcase classname="Catalog Viewer clicking on any catalog thumbnail should show the appropriate image" name="Catalog Viewer clicking on any catalog thumbnail should show the appropriate image" time="0.059">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;toggle-slide-show-button&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;h8k-navbar
+      header=&quot;Catalog Viewer&quot;
+    /&gt;
+    &lt;div
+      class=&quot;layout-column justify-content-center mt-75&quot;
+    &gt;
+      &lt;div
+        class=&quot;layout-row justify-content-center&quot;
+      &gt;
+        &lt;div
+          class=&quot;card pt-25&quot;
+        &gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center&quot;
+          &gt;
+            &lt;img
+              alt=&quot;catalog-view&quot;
+              class=&quot;w-75&quot;
+              data-testid=&quot;catalog-view&quot;
+              src=&quot;tea-light-candle.jpeg&quot;
+            /&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center align-items-center mt-20&quot;
+          &gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;prev-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_back
+              &lt;/i&gt;
+            &lt;/button&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-0&quot;
+              id=&quot;0&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb thumb-selected&quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;0&quot;
+                  style=&quot;background-image: url(tea-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-1&quot;
+              id=&quot;1&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;1&quot;
+                  style=&quot;background-image: url(white-light-candle.jpg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-2&quot;
+              id=&quot;2&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;2&quot;
+                  style=&quot;background-image: url(pink-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-3&quot;
+              id=&quot;3&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;3&quot;
+                  style=&quot;background-image: url(green-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;button
+              class=&quot;mr-10 ml-10&quot;
+              data-testid=&quot;toggle-slide-show-btn&quot;
+            &gt;
+              Toggle Slideshow
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;next-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_forward
+              &lt;/i&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:36:26)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/projects/challenge/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Catalog Viewer clicking on the previous button should show the previous image" name="Catalog Viewer clicking on the previous button should show the previous image" time="0.016">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;toggle-slide-show-button&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;h8k-navbar
+      header=&quot;Catalog Viewer&quot;
+    /&gt;
+    &lt;div
+      class=&quot;layout-column justify-content-center mt-75&quot;
+    &gt;
+      &lt;div
+        class=&quot;layout-row justify-content-center&quot;
+      &gt;
+        &lt;div
+          class=&quot;card pt-25&quot;
+        &gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center&quot;
+          &gt;
+            &lt;img
+              alt=&quot;catalog-view&quot;
+              class=&quot;w-75&quot;
+              data-testid=&quot;catalog-view&quot;
+              src=&quot;tea-light-candle.jpeg&quot;
+            /&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center align-items-center mt-20&quot;
+          &gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;prev-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_back
+              &lt;/i&gt;
+            &lt;/button&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-0&quot;
+              id=&quot;0&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb thumb-selected&quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;0&quot;
+                  style=&quot;background-image: url(tea-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-1&quot;
+              id=&quot;1&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;1&quot;
+                  style=&quot;background-image: url(white-light-candle.jpg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-2&quot;
+              id=&quot;2&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;2&quot;
+                  style=&quot;background-image: url(pink-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-3&quot;
+              id=&quot;3&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;3&quot;
+                  style=&quot;background-image: url(green-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;button
+              class=&quot;mr-10 ml-10&quot;
+              data-testid=&quot;toggle-slide-show-btn&quot;
+            &gt;
+              Toggle Slideshow
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;next-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_forward
+              &lt;/i&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:36:26)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/projects/challenge/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Catalog Viewer clicking on the next button should show the next image" name="Catalog Viewer clicking on the next button should show the next image" time="0.024">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;toggle-slide-show-button&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;h8k-navbar
+      header=&quot;Catalog Viewer&quot;
+    /&gt;
+    &lt;div
+      class=&quot;layout-column justify-content-center mt-75&quot;
+    &gt;
+      &lt;div
+        class=&quot;layout-row justify-content-center&quot;
+      &gt;
+        &lt;div
+          class=&quot;card pt-25&quot;
+        &gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center&quot;
+          &gt;
+            &lt;img
+              alt=&quot;catalog-view&quot;
+              class=&quot;w-75&quot;
+              data-testid=&quot;catalog-view&quot;
+              src=&quot;tea-light-candle.jpeg&quot;
+            /&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center align-items-center mt-20&quot;
+          &gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;prev-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_back
+              &lt;/i&gt;
+            &lt;/button&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-0&quot;
+              id=&quot;0&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb thumb-selected&quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;0&quot;
+                  style=&quot;background-image: url(tea-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-1&quot;
+              id=&quot;1&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;1&quot;
+                  style=&quot;background-image: url(white-light-candle.jpg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-2&quot;
+              id=&quot;2&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;2&quot;
+                  style=&quot;background-image: url(pink-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-3&quot;
+              id=&quot;3&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;3&quot;
+                  style=&quot;background-image: url(green-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;button
+              class=&quot;mr-10 ml-10&quot;
+              data-testid=&quot;toggle-slide-show-btn&quot;
+            &gt;
+              Toggle Slideshow
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;next-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_forward
+              &lt;/i&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:36:26)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/projects/challenge/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Catalog Viewer clicking on the previous button when on the first item should show the last image" name="Catalog Viewer clicking on the previous button when on the first item should show the last image" time="0.023">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;toggle-slide-show-button&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;h8k-navbar
+      header=&quot;Catalog Viewer&quot;
+    /&gt;
+    &lt;div
+      class=&quot;layout-column justify-content-center mt-75&quot;
+    &gt;
+      &lt;div
+        class=&quot;layout-row justify-content-center&quot;
+      &gt;
+        &lt;div
+          class=&quot;card pt-25&quot;
+        &gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center&quot;
+          &gt;
+            &lt;img
+              alt=&quot;catalog-view&quot;
+              class=&quot;w-75&quot;
+              data-testid=&quot;catalog-view&quot;
+              src=&quot;tea-light-candle.jpeg&quot;
+            /&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center align-items-center mt-20&quot;
+          &gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;prev-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_back
+              &lt;/i&gt;
+            &lt;/button&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-0&quot;
+              id=&quot;0&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb thumb-selected&quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;0&quot;
+                  style=&quot;background-image: url(tea-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-1&quot;
+              id=&quot;1&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;1&quot;
+                  style=&quot;background-image: url(white-light-candle.jpg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-2&quot;
+              id=&quot;2&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;2&quot;
+                  style=&quot;background-image: url(pink-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-3&quot;
+              id=&quot;3&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;3&quot;
+                  style=&quot;background-image: url(green-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;button
+              class=&quot;mr-10 ml-10&quot;
+              data-testid=&quot;toggle-slide-show-btn&quot;
+            &gt;
+              Toggle Slideshow
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;next-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_forward
+              &lt;/i&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:36:26)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/projects/challenge/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Catalog Viewer clicking on the next button when on the last item should show the first image" name="Catalog Viewer clicking on the next button when on the last item should show the first image" time="0.017">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;toggle-slide-show-button&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;h8k-navbar
+      header=&quot;Catalog Viewer&quot;
+    /&gt;
+    &lt;div
+      class=&quot;layout-column justify-content-center mt-75&quot;
+    &gt;
+      &lt;div
+        class=&quot;layout-row justify-content-center&quot;
+      &gt;
+        &lt;div
+          class=&quot;card pt-25&quot;
+        &gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center&quot;
+          &gt;
+            &lt;img
+              alt=&quot;catalog-view&quot;
+              class=&quot;w-75&quot;
+              data-testid=&quot;catalog-view&quot;
+              src=&quot;tea-light-candle.jpeg&quot;
+            /&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center align-items-center mt-20&quot;
+          &gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;prev-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_back
+              &lt;/i&gt;
+            &lt;/button&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-0&quot;
+              id=&quot;0&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb thumb-selected&quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;0&quot;
+                  style=&quot;background-image: url(tea-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-1&quot;
+              id=&quot;1&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;1&quot;
+                  style=&quot;background-image: url(white-light-candle.jpg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-2&quot;
+              id=&quot;2&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;2&quot;
+                  style=&quot;background-image: url(pink-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-3&quot;
+              id=&quot;3&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;3&quot;
+                  style=&quot;background-image: url(green-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;button
+              class=&quot;mr-10 ml-10&quot;
+              data-testid=&quot;toggle-slide-show-btn&quot;
+            &gt;
+              Toggle Slideshow
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;next-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_forward
+              &lt;/i&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:36:26)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/projects/challenge/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Catalog Viewer should change the image every 3 seconds when slide show checked" name="Catalog Viewer should change the image every 3 seconds when slide show checked" time="0.013">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;toggle-slide-show-button&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;h8k-navbar
+      header=&quot;Catalog Viewer&quot;
+    /&gt;
+    &lt;div
+      class=&quot;layout-column justify-content-center mt-75&quot;
+    &gt;
+      &lt;div
+        class=&quot;layout-row justify-content-center&quot;
+      &gt;
+        &lt;div
+          class=&quot;card pt-25&quot;
+        &gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center&quot;
+          &gt;
+            &lt;img
+              alt=&quot;catalog-view&quot;
+              class=&quot;w-75&quot;
+              data-testid=&quot;catalog-view&quot;
+              src=&quot;tea-light-candle.jpeg&quot;
+            /&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center align-items-center mt-20&quot;
+          &gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;prev-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_back
+              &lt;/i&gt;
+            &lt;/button&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-0&quot;
+              id=&quot;0&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb thumb-selected&quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;0&quot;
+                  style=&quot;background-image: url(tea-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-1&quot;
+              id=&quot;1&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;1&quot;
+                  style=&quot;background-image: url(white-light-candle.jpg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-2&quot;
+              id=&quot;2&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;2&quot;
+                  style=&quot;background-image: url(pink-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-3&quot;
+              id=&quot;3&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;3&quot;
+                  style=&quot;background-image: url(green-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;button
+              class=&quot;mr-10 ml-10&quot;
+              data-testid=&quot;toggle-slide-show-btn&quot;
+            &gt;
+              Toggle Slideshow
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;next-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_forward
+              &lt;/i&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:36:26)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/projects/challenge/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Catalog Viewer should have user interaction like before, when slide show checked" name="Catalog Viewer should have user interaction like before, when slide show checked" time="0.014">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;toggle-slide-show-button&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;h8k-navbar
+      header=&quot;Catalog Viewer&quot;
+    /&gt;
+    &lt;div
+      class=&quot;layout-column justify-content-center mt-75&quot;
+    &gt;
+      &lt;div
+        class=&quot;layout-row justify-content-center&quot;
+      &gt;
+        &lt;div
+          class=&quot;card pt-25&quot;
+        &gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center&quot;
+          &gt;
+            &lt;img
+              alt=&quot;catalog-view&quot;
+              class=&quot;w-75&quot;
+              data-testid=&quot;catalog-view&quot;
+              src=&quot;tea-light-candle.jpeg&quot;
+            /&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center align-items-center mt-20&quot;
+          &gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;prev-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_back
+              &lt;/i&gt;
+            &lt;/button&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-0&quot;
+              id=&quot;0&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb thumb-selected&quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;0&quot;
+                  style=&quot;background-image: url(tea-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-1&quot;
+              id=&quot;1&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;1&quot;
+                  style=&quot;background-image: url(white-light-candle.jpg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-2&quot;
+              id=&quot;2&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;2&quot;
+                  style=&quot;background-image: url(pink-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-3&quot;
+              id=&quot;3&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;3&quot;
+                  style=&quot;background-image: url(green-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;button
+              class=&quot;mr-10 ml-10&quot;
+              data-testid=&quot;toggle-slide-show-btn&quot;
+            &gt;
+              Toggle Slideshow
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;next-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_forward
+              &lt;/i&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:36:26)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/projects/challenge/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Catalog Viewer should stop changing the image every 3 seconds when slide show unchecked" name="Catalog Viewer should stop changing the image every 3 seconds when slide show unchecked" time="0.017">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;toggle-slide-show-button&quot;]
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;h8k-navbar
+      header=&quot;Catalog Viewer&quot;
+    /&gt;
+    &lt;div
+      class=&quot;layout-column justify-content-center mt-75&quot;
+    &gt;
+      &lt;div
+        class=&quot;layout-row justify-content-center&quot;
+      &gt;
+        &lt;div
+          class=&quot;card pt-25&quot;
+        &gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center&quot;
+          &gt;
+            &lt;img
+              alt=&quot;catalog-view&quot;
+              class=&quot;w-75&quot;
+              data-testid=&quot;catalog-view&quot;
+              src=&quot;tea-light-candle.jpeg&quot;
+            /&gt;
+          &lt;/div&gt;
+          &lt;div
+            class=&quot;layout-row justify-content-center align-items-center mt-20&quot;
+          &gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;prev-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_back
+              &lt;/i&gt;
+            &lt;/button&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-0&quot;
+              id=&quot;0&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb thumb-selected&quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;0&quot;
+                  style=&quot;background-image: url(tea-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-1&quot;
+              id=&quot;1&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;1&quot;
+                  style=&quot;background-image: url(white-light-candle.jpg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-2&quot;
+              id=&quot;2&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;2&quot;
+                  style=&quot;background-image: url(pink-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;span
+              data-testid=&quot;thumb-button-3&quot;
+              id=&quot;3&quot;
+            &gt;
+              &lt;span
+                class=&quot;inline-flex w-90 pa-4 image-thumb &quot;
+              &gt;
+                &lt;span
+                  class=&quot;mx-5 thumb&quot;
+                  id=&quot;3&quot;
+                  style=&quot;background-image: url(green-light-candle.jpeg);&quot;
+                /&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
+            &lt;button
+              class=&quot;mr-10 ml-10&quot;
+              data-testid=&quot;toggle-slide-show-btn&quot;
+            &gt;
+              Toggle Slideshow
+            &lt;/button&gt;
+            &lt;button
+              class=&quot;icon-only outlined&quot;
+              data-testid=&quot;next-slide-btn&quot;
+            &gt;
+              &lt;i
+                class=&quot;material-icons&quot;
+              &gt;
+                arrow_forward
+              &lt;/i&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:36:26)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/projects/challenge/node_modules/jest-circus/build/run.js:181:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
